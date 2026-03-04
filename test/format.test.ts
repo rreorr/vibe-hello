@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { toTitleCase } from "../src/format";
+import { toTitleCase } from "../src/format.js";
 
 describe("toTitleCase", () => {
   it("capitalises a single lowercase word", () => {
