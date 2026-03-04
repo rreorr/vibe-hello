@@ -12,3 +12,6 @@ You are helping me build and maintain this codebase.
 - Propose a plan before large changes.
 - Provide small, reviewable diffs.
 - Include tests when practical.
+
+## TypeScript/ESM note
+- This repo uses ESM + NodeNext typechecking; relative imports in TS files should include `.js` extensions (e.g. `../src/foo.js`).
